@@ -1,0 +1,16 @@
+.container { 
+    background: purple;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.item {
+    background: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.sub-item {
+    background: powderblue;
+
+}

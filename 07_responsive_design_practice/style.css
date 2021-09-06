@@ -1,0 +1,70 @@
+@media screen and (min-width: 794px) {
+    body{
+        background-color: orchid;
+    }
+}
+@media screen and (min-width: 1020px) {
+    body{
+        background-color: purple;
+    }
+}
+.container {
+    display: grid;
+    grid-template-columns: [f1] 100%;
+    grid-template-rows: [r1] 15% [r2] 20% [r3] 30%;
+    background-color: blueviolet;
+}
+.nav{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.texto{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.fotos{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.fotos{
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+.image1{
+    width: 30%;
+    height: 30%;
+    background-color: green;
+}
+.image2{
+    width: 30%;
+    height: 30%;
+    background-color: grey;
+}
+.image3{
+    width: 30%;
+    height: 30%;
+    background-color: hotpink;
+}
+.image4{
+    width: 30%;
+    height: 30%;
+    background-color: khaki;
+}
+.image5{
+    width: 30%;
+    height: 30%;
+    background-color: lightblue;
+}
+.image6{
+    width: 30%;
+    height: 30%;
+    background-color: lightseagreen;
+}
+img{
+    max-width: 100%;
+    align-items: center;
+}

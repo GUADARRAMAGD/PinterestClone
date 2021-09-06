@@ -1,0 +1,28 @@
+.grandpa {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 200px;
+    grid-gap: 20px;
+}
+.item {
+    border: 1px solid black;
+}
+.father {
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-gap: 20px;
+}
+.children {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.children2 {
+    border: 1px solid black;
+}
+.grandson {
+    border: 1px solid black;
+}
+.grandson2 {
+    border: 1px solid black;
+}

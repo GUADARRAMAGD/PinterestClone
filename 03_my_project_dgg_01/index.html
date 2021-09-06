@@ -1,0 +1,42 @@
+<!-- Alt + z (to fit the code) -->
+<!-- (Ctrl + k) + (Ctrl + c) to add a comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando CSS</title>
+</head>
+<body>
+    <!-- Para agregar contenido a una página web HTML, necesitamos primero; agregar un súper contendor, para esto agregamos: ".main" y se nos activará en automático: "<div class="main"></div> -->
+    <div class="main">
+        <!-- Ahora, para poder agregar links a otras páginas, lo que se necesita es agregar un "nav", en este caso la etiqueta es: <nav id="navMain"></nav> -->
+        <nav id="navMain">
+            <!-- El atributo "href" nos permite agregar hypervinculos a otras páginas. Lo llamamos con la etiqueta <a href=""></a> -->
+            <!-- Además, si queremos que los usuarios al momento de clickear nuestro hypervinculo, el link los direccione mediante una nueva pestaña, debemos añadir: "target=_blank" -->
+            <a href="https://en.wikipedia.org/wiki/Adam_Smith" target="-blank">Adam Smith Biography</a>
+            <a href="https://en.wikipedia.org/wiki/John_Maynard_Keynes" target="_blank">Jhon Maynard Keynes Biography</a>
+            <a href="https://en.wikipedia.org/wiki/Milton_Friedman" target="_blank">Milton Friedman Biograph y</a>
+        </nav>
+        <!-- fuera de nuestra etiqueta "nav" agregamos el encabezado -->
+        <h2 id="header">The Greatest Economists</h2>
+        <!-- Then... agregaremos el contenido principal de nuestra página web, por medio de la etiqueta; "<article></article>" -->
+        <!-- ¿Porqué se agrega el id? -->
+        <article id="mainContent">
+            <!-- crearemos ahora una visualización de imagenes por medio de la etiqueta "img", utilizando el tag: "src" (sirve para direccionar a la imagen) y "alt" (sirve para agregar texto debajo de la imagen) ver W3 school para más información -->
+            <img src="img/Adam_Smith.jpg" alt="Adam Smith">
+            <img src="img/Jhon_Maynard_Keynes.jpg" alt="Jhon Maynard Keynes">
+            <img src="img/Milton_Friedman.jpg" alt="Milton Friedman">
+            <!-- Agregamos párrafos con la etiqueta <p>Lorem50</p> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio iste voluptates! Repellat fuga tempore, nulla amet velit rerum deleniti architecto consectetur similique, illo assumenda nisi, aliquam sunt. Tempora magnam incidunt qui dicta architecto est expedita aliquam, vel a minima aspernatur inventore officiis culpa illum asperiores. Labore explicabo excepturi asperiores?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore optio asperiores nesciunt tenetur quos explicabo est earum voluptatibus nostrum quas, eum ratione maiores, impedit odit fuga obcaecati provident adipisci quibusdam voluptas vel tempore. Repudiandae hic dolor dolorum, eos voluptatibus, rerum voluptas architecto, totam assumenda consequuntur esse amet nostrum porro.</p>
+        </article>
+        <footer>
+            <p><link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+            Made with <i class="icon ion-heart" style="color: red;"></i> in DEV.F</p>
+        </footer>
+    </div>
+</body>
+</html>
